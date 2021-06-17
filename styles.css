@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* 
+    ==========
+    GENERAL
+    ==========
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background: hsl(210, 36%, 96%);
+}
+
+/* 
+    ==========
+    NAVBAR
+    ==========
+*/
+
+nav {
+    display: grid;
+    align-items: center;
+    height: 3rem;
+    padding: 0 2rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-size: 1rem; */
+    /* font-weight: 700; */
+}
+
+.nav-bar h4 {
+    margin-bottom: 0;
+    color: rgb(73 166 233);
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+.nav-links {
+    display: flex;
+    letter-spacing: 1px;
+    padding: 0 1rem;
+}
+
+.nav-links li {
+    padding: 0 1rem;
+    /* color: black; */
+}
+
+nav a:hover {
+    color: rgb(73 166 233);
+}
+
+/* 
+    ==========
+    CONTAINER
+    ==========
+*/
+
+main {
+    min-height: 3rem;
+    display: grid;
+    text-align: center; 
+    place-items: center;
+}
+
+.container {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.color {
+    color: rgb(73 166 233);
+}
+
+.container h2 {
+    letter-spacing: 2px;
+    font-size: 2rem;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;    
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.btn-click {
+    border-radius: 5px;
+    letter-spacing: 2px;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    border: 2px solid #222;
+}
+
+.btn-click:hover {
+    transition: all 0.3s linear;
+    background-color: #222;
+    color: #fff;
+}
